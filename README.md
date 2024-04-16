@@ -12,6 +12,9 @@ Renames all the files depending on the last changed date in selected path.
 - Naming format is like : "Parent Folder Name" - 13 April 2024.
 - If there are multiple folders with same last changed date it will name the recent one increased number. Such as "Parent Folder Name" - 13 April 2024 - 2
 
+# How does the one without UI work?
+- Its actually faster. It will rename the ones that are in the same directory with it.
+
 # Why .pyw? 
 - It prevents console screen to appear when using the one with UI
 
