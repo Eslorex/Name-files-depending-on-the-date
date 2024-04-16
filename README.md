@@ -3,7 +3,7 @@ Renames all the files depending on the last changed date in selected path.
 
 # Info
 - TR for Turkish, EN for English months
-- If you use the one with the UI, just select the path and it will rename it automatically.
+- If you use the one with the UI, just select the path with button and it will rename it automatically.
 
 # Questions #
 
