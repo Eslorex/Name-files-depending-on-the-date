@@ -17,7 +17,7 @@ Be careful to not use it on Desktop xd (The one without the UI)
 - Its actually faster. It will rename the ones that are in the same directory with it.
 
 # Why .pyw? 
-- It prevents console screen to appear when using the one with UI
+- To prevent console screen to appear when using the one with UI
 
 # Why Parent Folder's name?
 - To show the project name
