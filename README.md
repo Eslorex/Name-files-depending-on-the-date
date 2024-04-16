@@ -1,6 +1,6 @@
 # Mass-Rename-Files-with-Date
 Renames all the files depending on the last changed date in selected path. 
-Be careful to not use it on Desktop xd
+Be careful to not use it on Desktop xd (The one without the UI)
 
 # Info
 - TR for Turkish, EN for English months
