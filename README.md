@@ -1,28 +1,28 @@
 # Mass-Rename-Files-with-Date
-Renames all files depending on the last changed date in the selected path. 
-Be careful not to use it on the Desktop xd (The one without the UI)
+This tool renames all files based on the last changed date within the selected path. 
+**Warning:** Be careful with non-UI version to prevent renaming wrong files.
 
-# Info
-- TR for Turkish, EN for English months.
-- If you use the one with the UI, just select the path with the button, and it will rename it automatically.
+## Info
+- **Language Support:** TR for Turkish, EN for English months.
+- **UI Version:** Simply select the path using the button, and the files will be automatically renamed.
 
-# Questions #
+## Questions
 
-## How does renaming work?
-- It renames all the files depending on the parent folder's name. 
-- Naming format is like: "Parent Folder Name" - 13 April 2024.
-- If there are multiple folders with the same last changed date, it will name the most recent one with an increased number, such as "Parent Folder Name" - 13 April 2024 - 2.
+### How does renaming work?
+- Files are renamed based on the parent folder's name. 
+- **Naming Format:** "Parent Folder Name - DD Month YYYY".
+- If multiple folders have the same last changed date, the file in the most recently modified folder gets an incremented number (e.g., "Parent Folder Name - 13 April 2024 - 2").
 
-## How does the one without UI work?
-- It's actually faster. It will rename the ones that are in the same directory with it.
+### How does the non-UI version work?
+- This version is faster and renames files located in the same directory as the script.
 
-## Why .pyw? 
-- To prevent the console screen from appearing when using the one with UI.
+### Why use a .pyw file? 
+- The .pyw extension prevents the console window from appearing when using the UI version.
 
-## Why Parent Folder's name?
-- To show the project name.
+### Why use the parent folder's name?
+- This helps to display the project name directly in the file name.
 
-## What are the use cases?
-- You can use it basically for a small level of version control.
-- For example, if you're the type of person who is naming his project files like "asdgj, project1, untitled" etc., you can give them a proper name depending on their date and parent folder (basically project name).
-- So let's say you're making music called "MISTED". You can create a folder called "MISTED", save multiple versions of project files when working on it, then mass rename them with this tool. So you will have organized file names also mentioning the project name and date.
+### What are the use cases?
+- This tool is ideal for basic version control.
+- For instance, if you typically name your project files non-descriptively (like "asdgj", "project1", "untitled"), this tool allows you to assign meaningful names based on their creation date and parent folder.
+- Example Use Case: If you're working on a music project titled "MISTED", create a folder named "MISTED". As you save various versions of the project files, use this tool to mass rename them. This ensures your files are organized and labeled with both the project name and the date.
