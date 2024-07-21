@@ -22,7 +22,7 @@ This tool allows you to rename files in a selected directory based on their modi
     ```
 
 2. **Select a directory:**
-    - Click on the `Dizin Seç` button.
+    - Click on the `Select Directory` button.
     - A file dialog will appear.
     - Select the directory containing the files you want to rename.
     - The files will be renamed based on their modification dates.
