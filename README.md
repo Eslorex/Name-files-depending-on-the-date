@@ -14,19 +14,6 @@ This tool allows you to rename files in a selected directory based on their modi
 - Python 3.x
 - tkinter library (usually included with Python)
 
-## Installation
-
-1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/yourusername/file-renamer-tool.git
-    cd file-renamer-tool
-    ```
-
-2. **Install required libraries (if any):**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
 ## Usage
 
 1. **Run the script:**
