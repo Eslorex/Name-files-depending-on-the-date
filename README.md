@@ -1,6 +1,6 @@
 # File Renamer Tool
 
-This tool allows you to rename files in a selected directory based on their modification dates. The tool is built with a simple graphical user interface (GUI) using `tkinter`.
+This tool allows you to rename files in a selected directory based on their modification dates also built with a simple graphical user interface (GUI) using `tkinter`.
 
 ## Features
 
