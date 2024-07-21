@@ -1,29 +1,43 @@
-# Mass-Rename-Files-with-Date
-This tool renames all files based on the last changed date within the selected path. 
+# File Renamer Tool
 
-**Warning:** Be careful with non-UI version to prevent renaming wrong files.
+This tool allows you to rename files in a selected directory based on their modification dates. The tool is built with a simple graphical user interface (GUI) using `tkinter`.
 
-## Info
-- **Language Support:** TR for Turkish, EN for English months.
-- **UI Version:** Simply select the path using the button, and the files will be automatically renamed.
+## Features
 
-## Questions
+- Select a directory using a graphical file dialog.
+- Rename files based on their modification dates.
+- Display results in a text area within the application.
+- Handle and display errors for files that cannot be renamed.
 
-### How does renaming work?
-- Files are renamed based on the parent folder's name. 
-- **Naming Format:** "Parent Folder Name - DD Month YYYY".
-- If multiple folders have the same last changed date, the file in the most recently modified folder gets an incremented number (e.g., "Parent Folder Name - 13 April 2024 - 2").
+## Requirements
 
-### How does the non-UI version work?
-- This version is faster and renames files located in the same directory as the script.
+- Python 3.x
+- tkinter library (usually included with Python)
 
-### Why use a .pyw file? 
-- The .pyw extension prevents the console window from appearing when using the UI version.
+## Installation
 
-### Why use the parent folder's name?
-- This helps to display the project name directly in the file name.
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/yourusername/file-renamer-tool.git
+    cd file-renamer-tool
+    ```
 
-### What are the use cases?
-- This tool is ideal for basic version control.
-- For instance, if you typically name your project files non-descriptively (like "asdgj", "project1", "untitled"), this tool allows you to assign meaningful names based on their creation date and parent folder.
-- Example Use Case: If you're working on a music project titled "MISTED", create a folder named "MISTED". As you save various versions of the project files, use this tool to mass rename them. This ensures your files are organized and labeled with both the project name and the date.
+2. **Install required libraries (if any):**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+1. **Run the script:**
+    ```bash
+    python file_renamer.py
+    ```
+
+2. **Select a directory:**
+    - Click on the `Dizin Seç` button.
+    - A file dialog will appear.
+    - Select the directory containing the files you want to rename.
+    - The files will be renamed based on their modification dates.
+    - The results will be displayed in the text area within the application.
+    - If there are any errors, they will be shown in a message box and also in the text area.
